@@ -49,7 +49,7 @@ function makeListMarkup(array) {
       const flag = country.flags.svg;
       const name = country.name.official;
 
-      return `<li class="list-item"><img src=${flag} alt="flag of ${name}" width="40">${name}</li>`;
+      return `<li class="list-item"><img src=${flag} alt="flag of ${name}" width="40" height="40">${name}</li>`;
     })
     .join('');
 }
@@ -63,10 +63,8 @@ function makeDivMarkup(array) {
   const languages = Object.values(country.languages).join(', ');
   const population = country.population;
 
-  console.log(languages);
-
   const markup = `
-      <h1 class="country-name"><img src=${flag} alt="flag of ${name}" width="40">${name}</h1>
+      <h1 class="country-name"><img src=${flag} alt="flag of ${name}" width="60" height="60">${name}</h1>
       <p class="country-descr"><span class="country-index">Capital: </span>${capital}</p>
       <p class="country-descr"><span class="country-index">Population: </span>${population}</p>
       <p class="country-descr"><span class="country-index">Languages: </span>${languages}</p>`;

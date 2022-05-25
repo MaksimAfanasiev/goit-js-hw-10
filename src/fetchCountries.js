@@ -1,5 +1,3 @@
-import Notiflix from 'notiflix';
-
 const requestFields = ['name', 'capital', 'population', 'flags', 'languages'];
 
 export function fetchCountries(request) {
