@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://maksimafanasiev.github.io/goit-js-hw-10/",
+  "homepage": "https://maksimafanasiev.github.io/goit-js-hw-11/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaksimAfanasiev/goit-js-hw-10"
+    "url": "git+https://github.com/MaksimAfanasiev/goit-js-hw-11.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -26,7 +26,9 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "lodash.debounce": "^4.0.8",
-    "notiflix": "^3.2.5"
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.10.3"
   }
 }
